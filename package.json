@@ -1,0 +1,12 @@
+{
+  "name": "static-interactive-resume-builder",
+  "version": "1.0.0",
+  "description": "This is a static resume with interactivity through TypeScript.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roshaan Rashid Khan",
+  "license": "ISC"
+}

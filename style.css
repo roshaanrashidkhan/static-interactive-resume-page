@@ -290,10 +290,12 @@ header.loaded {
     gap: 5px;
     border: 3px solid #0C74BC;
     border-radius: 30px;
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .heading:hover {
-    opacity: 0.7;
+    opacity: 1 !important;
 }
 
 .headingRightContent:hover {

@@ -67,6 +67,7 @@ header.loaded {
 
 .careerName {
     padding-left: 50px;
+    color: #e7e7e7;
 }
 
 .mainContent {
@@ -235,8 +236,9 @@ header.loaded {
 }
 
 .degreeName,
-.yearCompleted {
+.yearCompleted, .jobPosition > p, .responsibilities > li{
     font-weight: normal;
+    color: rgb(89, 89, 89);
 }
 
 #workExperience {

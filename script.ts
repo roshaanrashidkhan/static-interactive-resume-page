@@ -25,10 +25,12 @@ function handleSectionToggle(
     if (plusSign.src.indexOf("plus-large-svgrepo-com.svg") >= 0) {
       plusSign.style.transform = `rotate(90deg)`;
       plusSign.src = "assets/images/close-lg-svgrepo-com.svg";
+      plusSign.alt = "close-icon"
       content.style.display = "flex";
     } else {
       plusSign.style.transform = `rotate(-90deg)`;
       plusSign.src = "assets/images/plus-large-svgrepo-com.svg";
+      plusSign.alt = "add-icon"
       content.style.display = "none";
     }
   });
